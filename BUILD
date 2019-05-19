@@ -42,12 +42,12 @@ ts_devserver(
     ],
 )
 
-# rollup_bundle(
-#     name = "bundle",
-#     entry_point = "react_bazel/index",
-#     deps = [
-#         ":prodapp",
-#         "@npm//react",
-#         "@npm//react-dom",
-#     ],
-# )
+rollup_bundle(
+    name = "bundle",
+    entry_point = "react_bazel/index",
+    deps = [
+        ":prodapp",
+        "@npm//react",
+        "@npm//react-dom",
+    ],
+)
