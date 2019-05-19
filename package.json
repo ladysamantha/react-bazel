@@ -1,0 +1,23 @@
+{
+  "name": "react-bazel",
+  "version": "0.1.0",
+  "description": "React with Bazel demo",
+  "main": "dist/index.js",
+  "repository": "https://github.com/ladysamantha/react-bazel",
+  "author": "Samantha Enders <ladysamantha@protonmail.com>",
+  "license": "GPL-3.0",
+  "private": true,
+  "devDependencies": {
+    "@bazel/bazel": "^0.25.1",
+    "@bazel/buildifier": "^0.22.0",
+    "@bazel/ibazel": "^0.10.3",
+    "@bazel/typescript": "^0.29.0",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

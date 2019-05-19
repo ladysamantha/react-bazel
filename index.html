@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React Bazel</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="/bundle.min.js"></script>
+    <script>
+      require.config({ paths: { "react-dom": "react-dom.development" } });
+      require.config({ paths: { react: "react.development" } });
+      require(["react_bazel/index"]);
+    </script>
+</body>
+</html>
